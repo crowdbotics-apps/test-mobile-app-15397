@@ -7,7 +7,6 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import Maps34439Navigator from '../features/Maps34439/navigator';
 import Messaging34438Navigator from '../features/Messaging34438/navigator';
-import BlankScreen26247Navigator from '../features/BlankScreen26247/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import TutorialNavigator from '../features/Tutorial/navigator';
 import MapsNavigator from '../features/Maps/navigator';
@@ -26,7 +25,6 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
 Maps34439: { screen: Maps34439Navigator },
 Messaging34438: { screen: Messaging34438Navigator },
-BlankScreen26247: { screen: BlankScreen26247Navigator },
 Messenger: { screen: MessengerNavigator },
 Tutorial: { screen: TutorialNavigator },
 Maps: { screen: MapsNavigator },
